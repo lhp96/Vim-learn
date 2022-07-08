@@ -12,8 +12,19 @@
 -  t  => xml标签
 - 技巧： 删除一个参数： daa
 -       修改一个参数： cia
+- 常用： vib 选择(括号)内的东西   viw 选中当前单词  ciw / diw 删除当前单词
+-       yaw 复制整个单词
 
 ### 练习
 ```js
 console.log("是金子总会发光的");
+```
+
+```js
+`aaaa  222`  "你说这就是爱吗？"
+'new Map()'
+<el-button size="middle" @click="backPage">返回上一步</el-button>
+backPage(){
+  this.$router.go(-1)
+}
 ```
