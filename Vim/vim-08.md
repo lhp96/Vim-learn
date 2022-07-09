@@ -24,3 +24,9 @@ I've been expecting you, Mister Bond.
 
 
 This phrase takes time but eventually gets to the point.
+
+小细节，使用`/`组合删除，会删除到匹配字符串的前一个，如：
+
+go go let's go, keyboard man!
+
+我上将keyboard前的字符串删除，只需键入`d/key` + `enter`
