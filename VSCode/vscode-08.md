@@ -23,16 +23,26 @@
   - `brew install lazygit`
   - or `brew install jesseduffield/lazygit/lazygi`
 - `echo "alias lg='lazygit'" >> ~/.zshrc`
-- 记录一些基础操作
 - 块间移动
   - `h`, `l`
   - `数字键 1 2 3 4 5`
   - 鼠标点击
-- 块内移动 `j`, `k`
-- stage changed 在`Files`中`space`
-- 在 files 下 `c` 可以`commit`操作 录入后回车
-- reset 在`Commits`中`space`
-- 进入`已暂存更改`, `enter`
+- 块内移动
+  - `j`, `k`
+- stage changed `add`
+  - 在`Files`中`空格`
+  - `a` 全部 add
+- commit
+  - 在`Files`下 `c` 录入后回车
+- reset
+  - 在`Commits`中`空格`
+- 取消
+  - `d` or `D`
+- pull `p` &nbsp; push `P`
+
 - 通过`tab`切换区域，按空格来选择 stage change 和 unstage change，分开提交
 
 - 重要，查看帮助 `?`
+
+- 工作
+  - `p a c "xxx" 回车 P`
