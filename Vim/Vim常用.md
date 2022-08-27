@@ -20,15 +20,24 @@
 - `/test<Enter>` n:下一个 N:上一个
 - `fxx` 根据前 2 个字母查找 `;`下一个 `,`上一个
 
-## 函数
+## 函数 (依赖 vscode 插件)
 
+- `fn` 生成纯 function
+  - `function name(params) {}`
 - `anfn` 生成箭头函数（tab 可以跳到下个位置）
   - `(params) => {}`
+- `ef` 导出函数
+  - `export function member (arguments) {}`
 - `nfn` 有 const 的箭头函数
   - `const add = (params) => {}`
-- `fun` 生成纯 function
-  - `function name(params) {}`
 
 ## 查看函数的定义
 
 - `gd` &nbsp; 配合 `Ctrl o` 再返回原来的位置
+
+## vscode 插件
+
+- Vue VSCode Snippets
+- Vue 3 Snippets
+- JavaScript (ES6) code snippets
+- JavaScript standardjs styled snippets
