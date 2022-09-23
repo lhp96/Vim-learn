@@ -1,12 +1,14 @@
 # Day15
 
 ## 目标：掌握窗口的管理
-- `Command + ;` 新建一个右窗口   原：Command + \
-- `Command + Ctrl + ;` 新建一个下窗口   (少用)
+
+- `Command + ;` 新建一个右窗口 原：Command + \
+- `Command + Ctrl + ;` 新建一个下窗口 (少用)
 - `Command + w` 关闭一个窗口
 - `Shift + 方向键` 窗口切换
 
 - 配置文件如下
+
 ```json
 {
     "key": "ctrl+cmd+;",
